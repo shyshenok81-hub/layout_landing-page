@@ -1,0 +1,18 @@
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 27px;
+  width: 278px;
+  height: 56px;
+  background-color: #fff;
+  border-radius: 40px;
+  margin: auto;
+
+  @include on-tablet {
+    width: 324px;
+  }
+
+  @include on-desktop {
+    width: 392px;
+  }
+}
