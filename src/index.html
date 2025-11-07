@@ -314,7 +314,7 @@
               <button
                 type="submit"
                 value="Submit"
-                class="button"
+                class="details__button"
               >
                 Explore
               </button>
@@ -324,12 +324,110 @@
             class="contacts"
             id="contacts"
           >
-            <h2 class="section-title">Contacts</h2>
+            <h2 class="section-title">Contact us</h2>
+            <article class="contacts__block">
+              <form
+                action="#"
+                class="contacts__form"
+              >
+                <label
+                  class="contacts__label"
+                  for="name"
+                >
+                  Name:
+                </label>
+                <br />
+                <input
+                  class="contacts__input"
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Name"
+                />
+                <br />
+                <label
+                  class="contacts__label"
+                  for="email"
+                >
+                  E-mail:
+                </label>
+                <br />
+                <input
+                  class="contacts__input"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email"
+                />
+                <br />
+                <label
+                  class="contacts__label"
+                  for="message"
+                >
+                  Message:
+                </label>
+                <br />
+                <textarea
+                  class="contacts__input contacts__input--message"
+                  type="text"
+                  name="message"
+                  id="message"
+                  placeholder="Message"
+                ></textarea>
+                <br />
+                <button
+                  class="contacts__button"
+                  type="submit"
+                >
+                  Send
+                </button>
+              </form>
+              <address class="contacts__info">
+                <br />
+                Phone
+                <br />
+                <br />
+                <a
+                  class="contacts__link"
+                  href="tel:+1 234 5555-55-55"
+                >
+                  +1 234 5555-55-55
+                </a>
+                <br />
+                Email
+                <br />
+                <br />
+                <a
+                  class="contacts__link"
+                  href="mailto:hello@miami.com"
+                >
+                  hello@miami.com
+                </a>
+                <br />
+                <br />
+                Address
+                <br />
+                <br />
+                <a
+                  class="contacts__link"
+                  href="https://surl.li/wbhhpd"
+                  target="_blank"
+                >
+                  first ave.
+                  <br />
+                  suite 700
+                  <br />
+                  Minneapolis, MN 55401
+                </a>
+              </address>
+            </article>
           </section>
         </div>
       </div>
     </main>
 
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__block"></div>
+    </footer>
   </body>
 </html>
