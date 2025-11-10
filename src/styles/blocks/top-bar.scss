@@ -9,9 +9,17 @@
     padding-block: 64px;
   }
 
+  &__phone {
+    display: none;
+  }
+
   &__icons {
     display: flex;
     gap: 24px;
+
+    &:hover .top-bar__phone {
+      display: block;
+    }
   }
 
   &__logo-link {
