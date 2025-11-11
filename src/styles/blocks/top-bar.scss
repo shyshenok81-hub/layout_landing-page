@@ -10,16 +10,18 @@
   }
 
   &__phone {
-    display: none;
+    color: $main-text-color;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    line-height: 27px;
+
+    @include hover(transform, scale(1.2));
   }
 
   &__icons {
     display: flex;
     gap: 24px;
-
-    &:hover .top-bar__phone {
-      display: block;
-    }
   }
 
   &__logo-link {

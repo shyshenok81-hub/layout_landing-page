@@ -4,11 +4,12 @@
   min-width: 320px;
 
   &__block {
+    position: sticky;
+    bottom: 100px;
     width: 100%;
     height: 200px;
-
+    z-index: -1;
     background-image: url(../images/footer-bg-photo.png);
-    background-attachment: fixed;
     background-position: center;
     background-size: cover;
 
