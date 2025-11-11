@@ -22,6 +22,7 @@
 
     &::placeholder {
       margin-left: 20px;
+
       font-family: Poppins, sans-serif;
       font-size: 14px;
       font-weight: 400;
@@ -53,6 +54,7 @@
     height: 56px;
     margin-top: 16px;
     border-radius: 40px;
+
     font-size: 16px;
     font-weight: 700;
     font-style: Bold;
@@ -69,12 +71,13 @@
   }
 
   &__info {
+    grid-column: 1 / -1;
+
     width: 100%;
 
-    font-weight: 400;
     font-size: 14px;
+    font-weight: 400;
     font-style: Regular;
-    grid-column: 1 / -1;
     line-height: 140%;
 
     @include on-tablet {
@@ -95,11 +98,11 @@
 
   &__link {
     margin-bottom: 16px;
+
     font-size: 16px;
+    line-height: 27px;
     color: $main-text-color;
     text-decoration: none;
-
-    line-height: 27px;
 
     &:hover {
       color: #e8e8f066;

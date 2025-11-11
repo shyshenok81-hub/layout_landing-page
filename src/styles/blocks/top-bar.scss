@@ -1,20 +1,20 @@
 .top-bar {
-  padding-block: 24px;
-
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  padding-block: 24px;
 
   @include on-tablet {
     padding-block: 64px;
   }
 
   &__phone {
-    color: $main-text-color;
-    text-decoration: none;
     display: block;
+
     font-size: 16px;
     line-height: 27px;
+    color: $main-text-color;
+    text-decoration: none;
 
     @include hover(transform, scale(1.2));
   }

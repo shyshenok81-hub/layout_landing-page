@@ -9,14 +9,16 @@
   }
 
   &__button {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 27px;
     width: 278px;
     height: 56px;
-    background-color: #fff;
-    border-radius: 40px;
     margin: auto;
+    border-radius: 40px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+
+    background-color: #fff;
 
     @include on-tablet {
       width: 324px;
@@ -79,13 +81,13 @@
   }
   &__title {
     margin: 0;
-    font-weight: 700;
     font-size: 24px;
+    font-weight: 700;
     line-height: 140%;
   }
   &__description {
-    font-weight: 400;
     font-size: 16px;
+    font-weight: 400;
     line-height: 140%;
   }
 }
