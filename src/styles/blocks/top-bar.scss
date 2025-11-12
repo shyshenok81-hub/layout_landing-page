@@ -9,19 +9,23 @@
   }
 
   &__phone {
-    display: block;
+    display: none;
 
     font-size: 16px;
     line-height: 27px;
     color: $main-text-color;
     text-decoration: none;
-
-    @include hover(transform, scale(1.2));
   }
 
   &__icons {
     display: flex;
     gap: 24px;
+
+    &:hover .top-bar__phone {
+      display: block;
+
+      @include hover(transform, scale(1.2));
+    }
   }
 
   &__logo-link {
