@@ -20,6 +20,11 @@
   &__icons {
     display: flex;
     gap: 24px;
+  }
+
+  &__phone-wrap {
+    display: flex;
+    gap: 20px;
 
     &:hover .top-bar__phone {
       display: block;

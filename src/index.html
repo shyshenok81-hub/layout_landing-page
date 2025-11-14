@@ -52,16 +52,18 @@
               />
             </a>
             <div class="top-bar__icons">
-              <a
-                href="tel:+1 234 5555-55-55"
-                class="top-bar__phone"
-              >
-                +1 234 555-55-55
-              </a>
-              <a
-                class="icon icon--phone"
-                href="#"
-              ></a>
+              <div class="top-bar__phone-wrap">
+                <a
+                  href="tel:+1 234 5555-55-55"
+                  class="top-bar__phone"
+                >
+                  +1 234 555-55-55
+                </a>
+                <a
+                  class="icon icon--phone"
+                  href="#"
+                ></a>
+              </div>
               <a
                 href="#menu"
                 class="icon icon--menu"
@@ -368,15 +370,13 @@
                 <br />
                 <button
                   class="contacts__button"
-                  type="submit"
+                  type="reset"
                 >
                   Send
                 </button>
               </form>
               <address class="contacts__info">
-                <br />
                 Phone
-                <br />
                 <br />
                 <a
                   class="contacts__link"
@@ -385,8 +385,8 @@
                   +1 234 5555-55-55
                 </a>
                 <br />
-                Email
                 <br />
+                Email
                 <br />
                 <a
                   class="contacts__link"
@@ -397,7 +397,6 @@
                 <br />
                 <br />
                 Address
-                <br />
                 <br />
                 <a
                   class="contacts__link"
