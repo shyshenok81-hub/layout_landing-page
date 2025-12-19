@@ -1,8 +1,8 @@
 .icon {
   display: block;
 
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
 
   background-position: center;
   background-size: cover;
@@ -10,8 +10,8 @@
   @include hover(transform, scale(1.2));
 
   @include on-tablet {
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
   }
 
   &--phone {
